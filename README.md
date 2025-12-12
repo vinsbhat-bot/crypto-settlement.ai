@@ -1,18 +1,18 @@
-# Crypto Settlement AI
+# Crypto Custody Reconciliation Engine
 
-A Python-based reconciliation engine for ETH custody and settlement.  
-Tracks balances, validates transactions, and supports audit-grade reporting.
+## 📌 Overview
+This project provides an **audit-grade reconciliation engine** for digital asset custody.  
+It compares balances between custody ledgers and on-chain blockchain data, ensuring settlement integrity across ETH and ERC‑20 tokens (e.g., USDC, DAI, LINK).
 
-## Features
-- ✅ ETH ledger reconciliation
-- ✅ Dynamic tolerance logic
-- 🚧 ERC-20 token support (coming soon)
-- 🚧 Streamlit UI for audit dashboards
+## 🚀 Features
+- 🔗 **On-chain reconciliation** for ETH and ERC‑20 tokens  
+- 📊 **Tolerance-based validation** between ledger and blockchain balances  
+- 🛡️ **Audit-grade reporting** for financial services and custody providers  
+- ⚙️ **Extensible architecture** for adding new tokens and chains  
+- 📝 **Transparent documentation** for reproducibility and onboarding ease  
 
-## Setup
-```bash
-git clone https://github.com/vinsbhat-bot/crypto-settlement.ai.git
-cd crypto-settlement.ai
-python -m venv venv
-source venv/bin/activate   # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
+## 🛠️ Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
